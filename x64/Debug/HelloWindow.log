@@ -1,0 +1,23 @@
+﻿  main.cpp
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(188,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(189,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(193,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(194,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(196,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(197,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(309,33): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\HelloWindow\main.cpp(711,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4217: symbol '__glewActiveTexture' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: int __cdecl gps::Mesh::Draw(class gps::Shader,struct glm::vec<3,float,0>)" (?Draw@Mesh@gps@@QEAAHVShader@2@U?$vec@$02M$0A@@glm@@@Z)'
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: int __cdecl gps::Mesh::Draw(class gps::Shader,struct glm::vec<3,float,0>)" (?Draw@Mesh@gps@@QEAAHVShader@2@U?$vec@$02M$0A@@glm@@@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1i' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: int __cdecl gps::Mesh::Draw(class gps::Shader,struct glm::vec<3,float,0>)" (?Draw@Mesh@gps@@QEAAHVShader@2@U?$vec@$02M$0A@@glm@@@Z)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: int __cdecl gps::Mesh::Draw(class gps::Shader,struct glm::vec<3,float,0>)" (?Draw@Mesh@gps@@QEAAHVShader@2@U?$vec@$02M$0A@@glm@@@Z)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenerateMipmap' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+  HelloWindow.vcxproj -> D:\Salvat\ANUL3\SEM1\GP\Lab11\HelloWindow1\x64\Debug\HelloWindow.exe
